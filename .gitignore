@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Video files (too large for GitHub)
+*.mov
+*.mp4
+*.avi
+
+# Node
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# Salesforce
+.sfdx/
+.sf/

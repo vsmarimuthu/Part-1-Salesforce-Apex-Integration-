@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>External_Reference_Id__c</fullName>
+    <description>Unique identifier returned by the external Lead API after a successful POST callout. Populated asynchronously via the LeadExternalApiQueueable job. Used to correlate Salesforce Lead records with their external system counterpart.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Auto-populated reference ID from the external Lead API. Do not edit manually.</inlineHelpText>
+    <label>External Reference Id</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

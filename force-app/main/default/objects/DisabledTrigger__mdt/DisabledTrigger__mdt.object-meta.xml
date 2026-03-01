@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Custom Metadata Type to disable specific trigger handlers declaratively. Used by the TriggerHandler base class to skip execution without deploying code.</description>
+    <label>Disabled Trigger</label>
+    <pluralLabel>Disabled Triggers</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

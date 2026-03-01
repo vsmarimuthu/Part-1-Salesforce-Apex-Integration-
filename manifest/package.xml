@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<!-- Apex Classes -->
+	<types>
+		<members>LeadTriggerHandler</members>
+		<members>LeadService</members>
+		<members>LeadSelector</members>
+		<members>LeadExternalApiQueueable</members>
+		<members>LeadApiCalloutService</members>
+		<members>LeadApiCalloutMock</members>
+		<members>LeadTriggerTest</members>
+		<members>TriggerHandler</members>
+		<name>ApexClass</name>
+	</types>
+	<!-- Apex Trigger -->
+	<types>
+		<members>LeadTrigger</members>
+		<name>ApexTrigger</name>
+	</types>
+	<!-- Custom Fields -->
+	<types>
+		<members>Lead.External_Reference_Id__c</members>
+		<members>DisabledTrigger__mdt.HandlerName__c</members>
+		<members>DisabledTrigger__mdt.IsDisabled__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>DisabledTrigger__mdt</members>
+		<name>CustomObject</name>
+	</types>
+	<!-- Named/External Credentials excluded — configured manually via Setup UI.
+	     They contain authentication secrets that should not be in source control. -->
+	<version>65.0</version>
+</Package>
